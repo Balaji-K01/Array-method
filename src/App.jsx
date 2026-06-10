@@ -1,12 +1,14 @@
-
-import tailwindcss from '@tailwindcss/vite'
 import './App.css'
+import Home from './assets/Component/home'
+import ArrayMethods from './assets/Component/arrayMethods'
+
 
 function App() {
   
   return (
     <>
-     <h1 className='bg-'>hello</h1>
+     <Home/>
+    <ArrayMethods/>
     </>
   )
 }
